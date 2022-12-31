@@ -1,0 +1,11 @@
+- src 폴더 생성.
+- index.html 파일 생성.
+- style.css 파일 생성.
+- main.js 파일 생성.
+- index.html에 css, script 호출
+- index.html에 font 호출
+- style.css에 폰트 가져오기
+  - 눈누 사이트 가서 검색하고 거기서 경로 복사 => 붙여넣기.
+  - 폰트 적용 : html > body { font-family: 'GoodNeighbors-Good-Neighbors-Bold'; }
+- .prettierrc 파일 생성, 작성. (prettier 사용시만)
+  - .git/info/exclude 열어서 .prettierrc 파일 git 업로드 제외

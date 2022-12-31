@@ -1,0 +1,79 @@
+/* 굿네이버스 폰트 가져오기(눈누) */
+@font-face {
+  font-family: 'GoodNeighbors-Good-Neighbors-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/GoodNeighbors-Good-Neighbors-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+/* 폰트 설정 */
+html>body {
+  font-family: 'GoodNeighbors-Good-Neighbors-Bold';
+}
+
+.img_logo,
+.img_global {
+  font-size: 30px;
+}
+
+.flex_100_cen {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.top_bar {
+  height: 80px;
+  border-bottom-width: 1px;
+}
+
+.img_logo {
+  width: 44px;
+  padding: 12px;
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+.btn_submit_doc {
+  height: 38px;
+  padding: 8px;
+  margin: 8px;
+  align-self: center;
+  border-radius: 999px;
+  background-color: rgb(252, 211, 77);
+}
+
+.img_globe {
+  width: 24px;
+  padding: 4px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.img_globe:hover {
+  color: darkgray;
+}
+
+/* top_nav 클래스 안에 ul 안에 li 안에 a */
+.top_nav>ul>li>a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* li에 마우스 올렸을때 */
+.top_nav>ul>li:hover>a {
+  text-decoration: underline;
+}
+
+/* 라이브러리 */
+con-min-width {
+  min-width: var(--site-width);
+}
+
+con {
+  width: var(--site-width);
+}
+
+/* 커스텀 */
+:root {
+  --site-width: 1080px;
+}
